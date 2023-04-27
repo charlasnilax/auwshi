@@ -23,8 +23,8 @@ export default function UpdateProduct () {
     const categories = [
         'Hair Oil',
         'Tooth Powder',
-        'Facewash',
-        'Rawmaterials',
+        'Face wash',
+        'Raw materials',
     ];
 
     const navigate = useNavigate();

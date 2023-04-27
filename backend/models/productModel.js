@@ -35,8 +35,8 @@ const productSchema = new mongoose.Schema({
             values: [
                 'Hair Oil',
                 'Tooth Powder',
-                'Facewash',
-                'Rawmaterials',
+                'Face wash',
+                'Raw materials',
             ],
             message : "Please select correct category"
         }

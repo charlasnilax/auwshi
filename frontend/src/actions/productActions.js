@@ -75,6 +75,9 @@ export const getAdminProducts  =  async (dispatch) => {
     
 }
 
+
+
+
 export const createNewProduct  =  productData => async (dispatch) => {
 
     try {  
@@ -140,3 +143,17 @@ export const deleteReview =  (productId, id) => async (dispatch) => {
     }
     
 }
+export const uploadImage = (formData) => async (dispatch) => {
+    try {
+      const config = {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      };
+      const { data } = await axios.post('/api/v1/upload', formData, config);
+      return data;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  

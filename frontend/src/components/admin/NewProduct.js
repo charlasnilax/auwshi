@@ -22,8 +22,8 @@ export  default function NewProduct () {
         
         'Hair Oil',
         'Tooth Powder',
-        'Facewash',
-        'Rawmaterials',
+        'Face wash',
+        'Raw materials',
     ];
 
     const navigate = useNavigate();

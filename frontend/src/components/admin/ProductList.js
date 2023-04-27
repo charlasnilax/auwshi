@@ -18,6 +18,12 @@ export default function ProductList() {
         const data = {
             columns : [
                 {
+                    label: 'Image',
+                    field: 'image',
+                    sort: 'asc'
+                },
+                
+                {
                     label: 'ID',
                     field: 'id',
                     sort: 'asc'
@@ -115,3 +121,5 @@ export default function ProductList() {
     </div>
     )
 }
+
+

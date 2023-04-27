@@ -23,18 +23,10 @@ export  default function ProductSearch(){
 
     const { keyword } = useParams();
     const categories = [  
-        'Electronics',
-        'Mobile Phones',
-        'Laptops',
-        'Accessories',
-        'Headphones',
-        'Food',
-        'Books',
-        'Clothes/Shoes',
-        'Beauty/Health',
-        'Sports',
-        'Outdoor',
-        'Home'
+        'Hair Oil',
+        'Tooth Powder',
+        'Face wash',
+        'Raw materials',
     ];
  
     const setCurrentPageNo = (pageNo) =>{
