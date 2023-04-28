@@ -106,7 +106,7 @@ nav {
 
 .ratings {
   font-size: 1.2rem;
-  color: #fdcc0d;
+  color: #014e09;
 }
 
 #no_of_reviews {
@@ -500,7 +500,7 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #232f3e;
+  background: #001f00;
   color: #fff;
   transition: all 0.3s;
 }
@@ -514,7 +514,7 @@ footer {
 }
 #sidebar ul.components {
   padding: 5px 0px;
-  border-bottom: 1px solid #232f3e;
+  border-bottom: 1px solid #09ed10;
 }
 
 #sidebar ul li a {

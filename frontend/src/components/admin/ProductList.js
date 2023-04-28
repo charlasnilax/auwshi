@@ -52,12 +52,15 @@ export default function ProductList() {
             rows : []
         }
 
+        
+
         products.forEach( product => {
             data.rows.push({
                 id: product._id,
                 name: product.name,
                 price : `$${product.price}`,
                 stock: product.stock,
+                image: <img src={product.image} alt={product.name} />,
                 actions: (
                     <Fragment>
                         <Link to={`/admin/product/${product._id}`} className="btn btn-primary"> <i className="fa fa-pencil"></i></Link>
@@ -69,6 +72,7 @@ export default function ProductList() {
             })
         })
 
+       
         return data;
     }
 
