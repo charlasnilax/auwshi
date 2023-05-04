@@ -50,12 +50,12 @@ export  default function ProductSearch(){
             {loading ? <Loader/>:
                 <Fragment>
                     <MetaData title={'Buy Best Products'} />
-                    <h1 id="products_heading">Search Products</h1>
+                    {/* <h1 id="products_heading">Search Products</h1> */}
                     <section id="products" className="container mt-5">
                         <div className="row">
                             <div className="col-6 col-md-3 mb-5 mt-5">
                                 {/* Price Filter */}
-                                <div className="px-5" onMouseUp={()=>setPriceChanged(price)}>
+                                {/* <div className="px-5" onMouseUp={()=>setPriceChanged(price)}>
                                     <Slider
                                         range={true}
                                         marks = {
@@ -80,8 +80,8 @@ export  default function ProductSearch(){
                                             }
                                         }
                                     />
-                                </div>
-                                <hr className="my-5" />        
+                                </div> */}
+                                {/* <hr className="my-5" />         */}
                                 {/* Category Filter */}
                                 <div className="mt-5">
                                      <h3 className="mb-3">Categories</h3> 

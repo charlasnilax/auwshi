@@ -97,7 +97,7 @@ export default function ProductDetail () {
 
                     <div className="col-12 col-lg-5 mt-5">
                     <h3>{product.name}</h3>
-                    <p id="product_id">Product # {product._id}</p>
+                    <p id="product_id">Product #{product._id}</p>
 
                     <hr/>
 

@@ -38,6 +38,9 @@ import UpdateOrder from './components/admin/UpdateOrder';
 import UserList from './components/admin/UserList';
 import UpdateUser from './components/admin/UpdateUser';
 import ReviewList from './components/admin/ReviewList';
+import Navbar from "./Navigation/Navbar.js";
+import CarouselFadeExample from './Homepage/home.js';
+
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("")
@@ -51,14 +54,20 @@ function App() {
   },[])
 
   return (
+
+    
     <Router>
       <div className="App">
         <HelmetProvider>
             <Header/>
+            <div>
+              <Navbar />
+            </div>
                 <div className='container container-fluid'>
                   <ToastContainer theme='dark' />
                   <Routes>
-                      <Route path='/' element={<Home/>} />
+                      <Route path='/' element={<CarouselFadeExample/>} />
+                      <Route path='/product' element={<Home/>} />
                       <Route path='/search/:keyword' element={<ProductSearch/>} />
                       <Route path='/product/:id' element={<ProductDetail/>} />
                       <Route path='/login' element={<Login/>} />
@@ -93,6 +102,7 @@ function App() {
             <Footer/>
         </HelmetProvider>
       </div>
+      
     </Router>
   );
 }

@@ -6,17 +6,18 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: whitesmoke;
 }
 
 /* Scroll Bar */
 
 ::-webkit-scrollbar-track {
-  background-color: #f5f5f5;
+  background-color: #0e0e0e;
 }
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #f5f5f5;
+  background-color: #0a0a0a;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -27,12 +28,12 @@ body {
 }
 
 nav {
-  background-color: #012d18;
+  background-color: whitesmoke;
   padding: 1rem 1rem;
 }
 
 #search_btn {
-  background-color: #067404;
+  background-color: #225f1c;
   
 }
 
@@ -44,24 +45,25 @@ nav {
 #search_field {
   height: 2.4rem;
   padding: 1rem;
+
 }
 
 #login_btn,
 #view_btn {
-  background-color: #067404;
+  background-color: #225f1c;
   padding: 0.4rem 1.8rem;
   font-family: calibri;
 }
 
 #cart {
   font-size: 1rem;
-  color: white;
+  color: rgb(15, 15, 15);
   -ms-flex-align: end;
 }
 
 #cart_count {
-  background-color: #067404;
-  padding: 0.2rem 0.5rem;
+  background-color:#225f1c;
+  padding: 0.5rem 0.7rem;
   border-radius: 0.2rem;
   color: black;
   font-weight: bold;
@@ -96,7 +98,7 @@ nav {
 
 #view_btn {
   background-color: #074901;
-  color: white;
+  color: rgb(11, 10, 10);
 }
 
 .card-img-top {
@@ -181,7 +183,7 @@ footer {
 }
 
 .redColor {
-  color: red;
+  color: rgb(244, 40, 8);
 }
 
 .greenColor {
@@ -242,7 +244,7 @@ footer {
 }
 
 #card_item_price {
-  color: #febd69;
+  color: #100f0f;
   font-weight: bold;
   font-size: 1.4rem;
 }
@@ -311,13 +313,13 @@ footer {
 .wrapper form .btn {
   background-color: #015a01;
   border-color: #01540b;
-  color: white;
+  color: rgb(13, 12, 12);
   margin-top: 2.5rem;
 }
 
 .wrapper form a {
   font-size: 0.9rem;
-  color: grey;
+  color: rgb(163, 159, 159);
 }
 
 /* Avatar */
@@ -385,12 +387,12 @@ footer {
 }
 
 .incomplete {
-  background: #eeeeee;
+  background: #0f0f0f;
 }
 
 .active-step {
   background: #093601;
-  color: #fff;
+  color: #060606;
 }
 
 .triangle-active {
@@ -434,16 +436,18 @@ footer {
 .avatar-profile {
   height: 16rem;
   width: 16rem;
+  
 }
 
 .user-info h4 {
   font-weight: 800;
-  color: grey;
+  color: rgb(10, 10, 10);
   margin-top: 2rem;
 }
 
 .user-info p {
   font-size: 1.1rem;
+  
 }
 
 #edit_profile {
@@ -501,7 +505,7 @@ footer {
   min-width: 100%;
   max-width: 100%;
   background: #001f00;
-  color: #fff;
+  color: #615f5f;
   transition: all 0.3s;
 }
 #sidebar.active {
@@ -521,12 +525,12 @@ footer {
   padding: 10px;
   font-size: 1.1em;
   display: block;
-  color: white;
+  color: rgb(137, 134, 134);
   text-decoration: none;
 }
 #sidebar ul li a:hover {
   color: #012e07;
-  background: #fff;
+  background: #efe6e6;
 }
 
 #sidebar ul li div.dropdown-menu a{
@@ -540,7 +544,7 @@ footer {
 
 #sidebar ul li.active > a,
 a[aria-expanded='true'] {
-  color: #fff;
+  color: #6d6a6a;
   background: #01340c;
 }
 a[data-toggle='collapse'] {
@@ -602,7 +606,7 @@ ul.CTAs a {
   list-style: none;
   font-size: 3rem;
   padding-left: 0.9rem;
-  color: #e3e3e3;
+  color: #080808;
 }
 
 .star:first-child {
@@ -610,14 +614,30 @@ ul.CTAs a {
 }
 
 .orange {
-  color: #fa9c23;
+  color: #f5f2ef;
 }
 
 .yellow {
-  color: #fdcc0d;
+  color: #f6f5f0;
 }
 
 .review_user {
   font-size: 0.8rem;
-  color: grey;
+  color: rgb(18, 17, 17);
+}
+#Navbar{
+  
+  background-color: #225f1c;
+  text-decoration-color: black;
+  margin-bottom: 10px;
+  padding: 0.5rem 0.5rem;
+}
+.Img{
+  width: 1500px;
+  height: 600px;
+  
+  
+}
+.search{
+  align-items: end;
 }
