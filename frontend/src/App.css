@@ -504,8 +504,8 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #042004;
-  color: #615f5f;
+  background: #03380a;
+  color: #878484;
   transition: all 0.3s;
 }
 #sidebar.active {
@@ -525,7 +525,7 @@ footer {
   padding: 10px;
   font-size: 1.1em;
   display: block;
-  color: rgb(137, 134, 134);
+  color: rgb(8, 8, 8);
   text-decoration: none;
 }
 #sidebar ul li a:hover {

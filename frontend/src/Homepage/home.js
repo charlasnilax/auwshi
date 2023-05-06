@@ -7,7 +7,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="Img "
-          src="images/products/img1.jpg"
+          src="images/products/img1.png"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -18,7 +18,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="Img "
-          src="images/products/img2.jpg"
+          src="images/products/img2.png"
           alt="Second slide"
         />
 
@@ -30,7 +30,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img
           className="Img "
-          src="images/products/img3.jpg"
+          src="images/products/img3.png"
           alt="Third slide"
         />
 
