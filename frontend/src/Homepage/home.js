@@ -2,10 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function CarouselFadeExample() {
   return (
+    <div class="carousell">
     <Carousel fade>
       <Carousel.Item>
         <img
-          className="Img"
+          className="Img "
           src="images/products/img1.jpg"
           alt="First slide"
         />
@@ -16,7 +17,7 @@ function CarouselFadeExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="Img"
+          className="Img "
           src="images/products/img2.jpg"
           alt="Second slide"
         />
@@ -28,7 +29,7 @@ function CarouselFadeExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="Img"
+          className="Img "
           src="images/products/img3.jpg"
           alt="Third slide"
         />
@@ -41,6 +42,7 @@ function CarouselFadeExample() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+     </div>
   );
 }
 

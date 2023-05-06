@@ -6,7 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background-color: whitesmoke;
+  background-color: rgb(234, 231, 231);
 }
 
 /* Scroll Bar */
@@ -504,7 +504,7 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #001f00;
+  background: #042004;
   color: #615f5f;
   transition: all 0.3s;
 }
@@ -606,7 +606,7 @@ ul.CTAs a {
   list-style: none;
   font-size: 3rem;
   padding-left: 0.9rem;
-  color: #080808;
+  color: #848784;
 }
 
 .star:first-child {
@@ -614,11 +614,11 @@ ul.CTAs a {
 }
 
 .orange {
-  color: #f5f2ef;
+  color:rgb(5, 93, 2);
 }
 
 .yellow {
-  color: #f6f5f0;
+  color: rgb(6, 132, 2);
 }
 
 .review_user {
@@ -629,15 +629,15 @@ ul.CTAs a {
   
   background-color: #225f1c;
   text-decoration-color: black;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   padding: 0.5rem 0.5rem;
 }
+.carousell{
+  
+  margin-left: -420px;
+  margin-right: -420px;
+}
 .Img{
-  width: 1500px;
-  height: 600px;
-  
-  
-}
-.search{
-  align-items: end;
-}
+  width: 2000px;
+  height: 500px;
+} 
