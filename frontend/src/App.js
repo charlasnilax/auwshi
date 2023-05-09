@@ -40,7 +40,7 @@ import UpdateUser from './components/admin/UpdateUser';
 import ReviewList from './components/admin/ReviewList';
 import Navbar from "./Navigation/Navbar.js";
 import CarouselFadeExample from './Homepage/home.js';
-
+import ShapeExample from './Homepage/home.js'
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("")
@@ -67,6 +67,7 @@ function App() {
                   <ToastContainer theme='dark' />
                   <Routes>
                       <Route path='/' element={<CarouselFadeExample/>} />
+                      <Route path='/' element={<ShapeExample/>} />
                       <Route path='/product' element={<Home/>} />
                       <Route path='/search/:keyword' element={<ProductSearch/>} />
                       <Route path='/product/:id' element={<ProductDetail/>} />
