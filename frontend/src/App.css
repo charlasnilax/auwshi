@@ -644,3 +644,13 @@ ul.CTAs a {
   margin-left: -300px;
   margin-right: -300px;
 }
+.grid-container{
+  background-color: red;
+  border: 10px solid black;
+  height: 100px;
+  width: 100px;
+}
+.col{
+  height: 100px;
+  width: 100px;
+}

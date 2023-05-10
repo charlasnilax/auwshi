@@ -87,24 +87,24 @@ function ShapeExample() {
   );
 }
 
-function Icons() {
-  return (
-    <Container align='center'>
-      <hr color='#0F2B05'></hr>
-      <Row>
-        <Col xs={6} md={4}>
-        <Image src="images/icon1.gif" width="150px"height="150px"  roundedCircle/>
-        </Col>
-        <Col xs={6} md={4}>
-        <Image src="images/icon2.gif" width="150px"height="150px"  roundedCircle/>
-        </Col>
-        <Col xs={6} md={4}>
-          <Image src="images/icon3.gif" width="150px"height="150px"  roundedCircle/>
-        </Col>
-      </Row>
-    </Container>
-  );
-}
+// function Icons() {
+//   return (
+//     <Container align='center'>
+//       <hr color='#0F2B05'></hr>
+//       <Row>
+//         <Col xs={6} md={4}>
+//         <Image src="images/icon1.gif" width="150px"height="150px"  roundedCircle/>
+//         </Col>
+//         <Col xs={6} md={4}>
+//         <Image src="images/icon2.gif" width="150px"height="150px"  roundedCircle/>
+//         </Col>
+//         <Col xs={6} md={4}>
+//           <Image src="images/icon3.gif" width="150px"height="150px"  roundedCircle/>
+//         </Col>
+//       </Row>
+//     </Container>
+//   );
+// }
 
 
 
