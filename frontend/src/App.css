@@ -20,31 +20,6 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #1a1814;
-}
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
 /* Scroll Bar */
 
 ::-webkit-scrollbar-track {
@@ -64,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-  background-color: whitesmoke;
+  background-color: rgb(20, 20, 20);
   padding: 1rem 1rem;
 }
 
@@ -689,4 +664,14 @@ ul.CTAs a {
 .col{
   height: 100px;
   width: 100px;
+}
+
+.container-fluid{
+  margin-top: 10px;
+  max-width: 1200px;
+}
+.carouselimage2{
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 }

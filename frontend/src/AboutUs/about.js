@@ -299,7 +299,7 @@ function Foody(){
   </div>
   {/* Google Map End */}
         {/* Footer Start */}
-        {<div
+        {/* {<div
     className="container-fluid bg-dark footer pt-5 wow fadeIn"
     data-wow-delay="0.1s"
   >
@@ -409,7 +409,7 @@ function Foody(){
         </div>
       </div>
     </div>
-  </div>}
+  </div>} */}
       {/* Footer End */}
     </div>
   );

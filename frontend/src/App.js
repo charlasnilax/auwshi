@@ -38,7 +38,7 @@ import UpdateOrder from './components/admin/UpdateOrder';
 import UserList from './components/admin/UserList';
 import UpdateUser from './components/admin/UpdateUser';
 import ReviewList from './components/admin/ReviewList';
-import Navbar from "./Navigation/Navbar.js";
+// import Navbar from "./Navigation/Navbar.js";
 import CarouselFadeExample from './Homepage/home.js';
 import ShapeExample from './Homepage/home.js';
 // import FluidExample from './AboutUs/about.js';
@@ -65,7 +65,7 @@ function App() {
         <HelmetProvider>
             <Header/>
             <div>
-              <Navbar />
+              {/* <Navbar /> */}
             </div>
                 <div className='container container-fluid'>
                   <ToastContainer theme='dark' />

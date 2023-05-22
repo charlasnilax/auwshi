@@ -10,15 +10,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //jathu courousel starts
 const CarouselComponent = () => {
   return (
-    <div className="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div className="container-fluid p-2 mb-5 wow fadeIn" data-wow-delay="0.1s" >
       <Carousel id="header-carousel">
         <Carousel.Item>
-          <img className="w-100" src="images/products/img2.png" alt="Image" />
+          <img className="w-100" src="images/products/imagev3.jpg" alt="Image" />
           <Carousel.Caption>
             <div className="container">
               <div className="row justify-content-start">
                 <div className="col-lg-7">
-                  <h1 className="display-2 mb-5 animated slideInDown">Organic Food Is Good For Health</h1>
+                  {/* <h1 className="display-2 mb-5 animated slideInDown">Organic Food Is Good For Health</h1> */}
                   {/* <a href="" className="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a> */}
                   {/* <a href="" className="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> */}
                 </div>
@@ -27,12 +27,12 @@ const CarouselComponent = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="w-100" src="images/products/img2.png" alt="Image" />
+          <img className="w-100" src="images/products/imagev3.jpg" alt="Image" />
           <Carousel.Caption>
             <div className="container">
               <div className="row justify-content-start">
                 <div className="col-lg-7">
-                  <h1 className="display-2 mb-5 animated slideInDown">Natural Food Is Always Healthy</h1>
+                  {/* <h1 className="display-2 mb-5 animated slideInDown">Natural Food Is Always Healthy</h1> */}
                   {/* <a href="" className="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a>
                   <a href="" className="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> */}
                 </div>
@@ -53,13 +53,13 @@ const About = () => {
         <div className="row g-5 align-items-center">
           <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
             <div className="about-img position-relative overflow-hidden p-5 pe-0">
-              <img className="img-fluid w-100" src="img/about.jpg" alt="About" />
+              <img className="img-fluid w-100" src="images/products/imageV1.jpg" alt="About" />
             </div>
           </div>
           <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-            <h1 className="display-5 mb-4">Best Organic Fruits And Vegetables</h1>
+            <h1 className="display-5 mb-4">Best Herbal Products And Medicines</h1>
             <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+            Herbal products and medicines, derived from plants and herbs, are gaining popularity for their natural healing properties. Echinacea, turmeric, ginger, garlic, peppermint, St. John's Wort, chamomile, valerian root, ginseng, and milk thistle are commonly recognized herbal remedies. However, it's important to consult with a healthcare professional before using them, as they can still have side effects and interactions with medications.
             </p>
             <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
           </div>
@@ -80,7 +80,7 @@ const Feature = () => {
         <div className="row g-4">
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="bg-white text-center h-100 p-4 p-xl-5">
-              <img className="img-fluid mb-4" src="" alt="Feature 1" />
+              <img className="img-fluid mb-4" src="images/products/imageV1.jpg" alt="Feature 1" />
               <h4 className="mb-3">Natural Process</h4>
               <p className="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
               <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
@@ -88,7 +88,7 @@ const Feature = () => {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div className="bg-white text-center h-100 p-4 p-xl-5">
-              <img className="img-fluid mb-4" src="" alt="Feature 2" />
+              <img className="img-fluid mb-4" src="images/products/imageV1.jpg" alt="Feature 2" />
               <h4 className="mb-3">Organic Products</h4>
               <p className="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
               <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
@@ -96,7 +96,7 @@ const Feature = () => {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="bg-white text-center h-100 p-4 p-xl-5">
-              <img className="img-fluid mb-4" src="" alt="Feature 3" />
+              <img className="img-fluid mb-4" src="images/products/imageV1.jpg" alt="Feature 3" />
               <h4 className="mb-3">Biologically Safe</h4>
               <p className="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
               <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
@@ -174,7 +174,7 @@ return (
                 <div className="position-relative bg-light overflow-hidden">
                   <img
                     className="img-fluid w-100"
-                    src="img/product-1.jpg"
+                    src="img/imagev4.jpeg"
                     alt=""
                   />
                   <div className="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -326,14 +326,7 @@ return (
                 </div>
               </div>
             </div>
-            <div
-              className="col-12 text-center wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <a className="btn btn-primary rounded-pill py-3 px-5" href="">
-                Browse More Products
-              </a>
-            </div>
+           
           </div>
         </div>
         <div id="tab-2" className="tab-pane fade show p-0">
@@ -343,7 +336,7 @@ return (
                 <div className="position-relative bg-light overflow-hidden">
                   <img
                     className="img-fluid w-100"
-                    src="img/product-1.jpg"
+                    src="images/products/imagev4.jpeg"
                     alt=""
                   />
                   <div className="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -380,7 +373,7 @@ return (
                 <div className="position-relative bg-light overflow-hidden">
                   <img
                     className="img-fluid w-100"
-                    src="img/product-2.jpg"
+                    src="images/products/imageV1.jpg"
                     alt=""
                   />
                   <div className="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -417,7 +410,7 @@ return (
                 <div className="position-relative bg-light overflow-hidden">
                   <img
                     className="img-fluid w-100"
-                    src="img/product-3.jpg"
+                    src="images/products/imageV1.jpg"
                     alt=""
                   />
                   <div className="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -448,19 +441,16 @@ return (
                   </small>
                 </div>
               </div>
-            </div>
-            <div className="col-12 text-center">
-              <a className="btn btn-primary rounded-pill py-3 px-5" href="">
-                Browse More Products
-              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>)
-
 }
+
+
+
 
 
 
@@ -478,6 +468,8 @@ function App() {
       {<Feature></Feature>}
       <br></br><br></br><br></br>
       {<ProductSection></ProductSection>}
+      <br></br><br></br>
+      
       
       
 
