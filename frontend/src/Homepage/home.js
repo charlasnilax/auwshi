@@ -3,6 +3,73 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+//jathu courousel starts
+const CarouselComponent = () => {
+  return (
+    <div className="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+      <Carousel id="header-carousel">
+        <Carousel.Item>
+          <img className="w-100" src="images/products/img2.png" alt="Image" />
+          <Carousel.Caption>
+            <div className="container">
+              <div className="row justify-content-start">
+                <div className="col-lg-7">
+                  <h1 className="display-2 mb-5 animated slideInDown">Organic Food Is Good For Health</h1>
+                  {/* <a href="" className="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a> */}
+                  {/* <a href="" className="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> */}
+                </div>
+              </div>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="w-100" src="images/products/img2.png" alt="Image" />
+          <Carousel.Caption>
+            <div className="container">
+              <div className="row justify-content-start">
+                <div className="col-lg-7">
+                  <h1 className="display-2 mb-5 animated slideInDown">Natural Food Is Always Healthy</h1>
+                  {/* <a href="" className="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a>
+                  <a href="" className="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> */}
+                </div>
+              </div>
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  );
+};
+//jathu courousel ends
+
+const About = () => {
+  return (
+    <div className="container-xxl py-5">
+      <div className="container">
+        <div className="row g-5 align-items-center">
+          <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div className="about-img position-relative overflow-hidden p-5 pe-0">
+              <img className="img-fluid w-100" src="img/about.jpg" alt="About" />
+            </div>
+          </div>
+          <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <h1 className="display-5 mb-4">Best Organic Fruits And Vegetables</h1>
+            <p className="mb-4">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+            </p>
+            <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
+
+
 
 // carousel
 function CarouselFadeExample() {
@@ -112,11 +179,15 @@ function ShapeExample() {
 function App() {
   return (
     <div>
-      <CarouselFadeExample />
+      <CarouselComponent></CarouselComponent>
+      <br></br>
+      {<About></About>}
       <br></br><br></br><br></br>
-      <ShapeExample />
+      {/* <ShapeExample /> */}
       <br></br><br></br><br></br>
       {/* <Icons /> */}
+      
+      
 
     </div>
   );
