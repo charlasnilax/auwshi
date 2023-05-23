@@ -51,9 +51,9 @@ function Foody(){
             <i className="fa fa-check text-primary me-3" />
             Clita duo justo magna dolore erat amet
           </p>
-          <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">
+          {/* <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">
             Read More
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
@@ -110,12 +110,12 @@ function Foody(){
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
               justo sed vero dolor duo.
             </p>
-            <a
+            {/* <a
               className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill"
               href=""
             >
               Read More
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -126,12 +126,12 @@ function Foody(){
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
               justo sed vero dolor duo.
             </p>
-            <a
+            {/* <a
               className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill"
               href=""
             >
               Read More
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -142,12 +142,12 @@ function Foody(){
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
               justo sed vero dolor duo.
             </p>
-            <a
+            {/* <a
               className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill"
               href=""
             >
               Read More
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
