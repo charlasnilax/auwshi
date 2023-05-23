@@ -83,7 +83,7 @@ const Feature = () => {
               <img className="img-fluid mb-4" src="images/products/imageV1.jpg" alt="Feature 1" />
               <h4 className="mb-3">Natural Process</h4>
               <p className="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-              <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
+              {/* <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a> */}
             </div>
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -91,7 +91,7 @@ const Feature = () => {
               <img className="img-fluid mb-4" src="images/products/imageV1.jpg" alt="Feature 2" />
               <h4 className="mb-3">Organic Products</h4>
               <p className="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-              <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
+              {/* <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a> */}
             </div>
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -99,7 +99,7 @@ const Feature = () => {
               <img className="img-fluid mb-4" src="images/products/imageV1.jpg" alt="Feature 3" />
               <h4 className="mb-3">Biologically Safe</h4>
               <p className="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-              <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
+              {/* <a className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a> */}
             </div>
           </div>
         </div>

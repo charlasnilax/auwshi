@@ -106,12 +106,7 @@ function Foody(){
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
               justo sed vero dolor duo.
             </p>
-            {/* <a
-              className="btn btn-outline-primary border-2 py-2 px-4 rounded-pill"
-              href=""
-            >
-              Read More
-            </a> */}
+          
           </div>
         </div>
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
