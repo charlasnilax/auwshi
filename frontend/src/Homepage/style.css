@@ -1,8 +1,13 @@
-/********** Template CSS **********/
+/* .App{
+    background-color:#4A8082;
+} */
+
+
+
 :root {
     --primary: #3CB815;
     --secondary: #F65005;
-    --light: #F7F8FC;
+    --light: #3457e2;
     --dark: #111111;
 }
 
@@ -85,7 +90,7 @@
 
 
 /*** Navbar ***/
-.fixed-top {
+/* .fixed-top {
     transition: .5s;
 }
 
@@ -144,7 +149,7 @@
         transition: .5s;
         opacity: 1;
     }
-}
+} */
 
 
 /*** Header ***/
@@ -188,12 +193,12 @@
     }
 }
 
-/* .page-header {
+.page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    /* background: url(../img/carousel-1.jpg) top right no-repeat; */
     background-size: cover;
-} */
+}
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;

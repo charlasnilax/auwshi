@@ -6,9 +6,17 @@ html,
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background-color:  #0c0b09;
+  background-color:  #14380e;
   color: #fff;
 } */
+
+
+.root {
+  --primary: #3CB815;
+  --secondary: #F65005;
+  --light: #F7F8FC;
+  --dark: #111111;
+}
 a {
   color: #cda45e;
   text-decoration: none;
@@ -39,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 nav {
-  background-color: rgb(217, 196, 196);
+  background-color: #4A8082;
   padding: 1rem 1rem;
 }
 
@@ -681,12 +689,7 @@ ul.CTAs a {
   max-height: 100%;
 } */
 
-.root {
-  --primary: #3CB815;
-  --secondary: #F65005;
-  --light: #F7F8FC;
-  --dark: #111111;
-}
+
 
 
 

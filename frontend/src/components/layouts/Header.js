@@ -32,7 +32,7 @@
             </div>
             <Search />
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              {/* <Nav.Link href="/">Home</Nav.Link> */}
               <Nav.Link href="/aboutus">About Us</Nav.Link>
               <Nav.Link href="/product">Products</Nav.Link>
               <Nav.Link href="#blogs">Blog</Nav.Link>

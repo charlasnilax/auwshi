@@ -6,6 +6,24 @@ import React from 'react';
 import './bootstrap.min.css';
 import './style.css';
 
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+const PageHeader = () => {
+  return (
+    <div className="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+      <div className="container">
+        <h1 className="display-3 mb-3 animated slideInDown">About Us</h1>
+        <nav >
+          <ol className="breadcrumb mb-0">
+            <li className="breadcrumb-item"><a className="text-body" href="/">Home</a></li>
+            <li className="breadcrumb-item text-dark active" aria-current="page">About Us</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  );
+}
+
 
 
 
@@ -15,10 +33,6 @@ function Foody(){
       {/* Navbar Start */}
       {/* Your navbar code here */}
       {/* Navbar End */}
-
-      {/* Page Header Start */}
-      {/* Your page header code here */}
-      {/* Page Header End */}
 
       {/* About Start */}
       {<div className="container-xxl py-5">
@@ -450,7 +464,7 @@ function Foody(){
 function About() {
   return (
     <div>
-      {/* <FluidExample /> */}
+      <PageHeader />
       <br></br>
       {/* <AutoLayoutExample/> */}
       <br></br>
