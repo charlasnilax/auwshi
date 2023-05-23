@@ -464,7 +464,7 @@ function App() {
       <CarouselComponent></CarouselComponent>
       <br></br>
       {<About></About>}
-      <br></br><br></br><br></br>
+      <br></br>
       {<Feature></Feature>}
       <br></br><br></br><br></br>
       {<ProductSection></ProductSection>}

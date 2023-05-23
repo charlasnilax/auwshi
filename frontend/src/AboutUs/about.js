@@ -3,6 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React from 'react';
+// import './lib/animate/animate.min.css';
+// import './lib/owlcarousel/assets/owl.carousel.min.css';
+
+// import Css from 'src/css/style.css';
+{/* <link rel="stylesheet" type="text/css" href="style.css" /> */}
+
 // import Foody from './';
 
 // Rest of the code
@@ -24,15 +30,14 @@ function Foody(){
       <div className="row g-5 align-items-center">
         <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
           <div className="about-img position-relative overflow-hidden p-5 pe-0">
-            <img className="img-fluid w-100" src="img/about.jpg" />
+            <img className="img-fluid w-100 imagev1" src="images/products/imageV1.jpg" />
           </div>
         </div>
         <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-          <h1 className="display-5 mb-4">Best Organic Fruits And Vegetables</h1>
+          <h1 className="display-5 mb-4">Best Herbal Products And Medicines</h1>
           <p className="mb-4">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-            lorem sit clita duo justo magna dolore erat amet
+          Herbal products and medicines, derived from plants and herbs, are gaining popularity for their natural healing properties. Echinacea, turmeric, ginger, garlic, peppermint, St. John's Wort, chamomile, valerian root, ginseng, and milk thistle are commonly recognized herbal remedies. However, it's important to consult with a healthcare professional before using them, as they can still have side effects and interactions with medications.
+
           </p>
           <p>
             <i className="fa fa-check text-primary me-3" />
@@ -99,7 +104,7 @@ function Foody(){
       <div className="row g-4">
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div className="bg-white text-center h-100 p-4 p-xl-5">
-            <img className="img-fluid mb-4" src="img/icon-1.png" alt="" />
+            <img className="img-fluid mb-4" src="images/products/imagev3.jpg" alt="" />
             <h4 className="mb-3">Natural Process</h4>
             <p className="mb-4">
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
@@ -115,7 +120,7 @@ function Foody(){
         </div>
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
           <div className="bg-white text-center h-100 p-4 p-xl-5">
-            <img className="img-fluid mb-4" src="img/icon-2.png" alt="" />
+            <img className="img-fluid mb-4" src="images/products/imagev3.jpg" alt="" />
             <h4 className="mb-3">Organic Products</h4>
             <p className="mb-4">
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
@@ -131,7 +136,7 @@ function Foody(){
         </div>
         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
           <div className="bg-white text-center h-100 p-4 p-xl-5">
-            <img className="img-fluid mb-4" src="img/icon-3.png" alt="" />
+            <img className="img-fluid mb-4" src="images/products/imagev3.jpg" alt="" />
             <h4 className="mb-3">Biologically Safe</h4>
             <p className="mb-4">
               Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
@@ -149,8 +154,8 @@ function Foody(){
     </div>
   </div>}
       {/* Feature End */}
-
-
+<br></br>
+<br></br>
       {/* contact Start */}
       { <div className="container-xxl py-6">
     <div className="container">
@@ -281,6 +286,8 @@ function Foody(){
     </div>
   </div>}
       {/* contact End */}
+
+      <br></br>
       {/* Google Map Start */}
   <div
     className="container-xxl px-0 wow fadeIn"
@@ -298,6 +305,8 @@ function Foody(){
     />
   </div>
   {/* Google Map End */}
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+      <link href="css/style.css" rel="stylesheet" />
         {/* Footer Start */}
         {/* {<div
     className="container-fluid bg-dark footer pt-5 wow fadeIn"

@@ -112,5 +112,6 @@ function App() {
     </Router>
   );
 }
+// app.use(express.static("public"));
 
 export default App;
