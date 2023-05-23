@@ -516,7 +516,7 @@ footer {
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #03380a;
+  background: #4A8082;
   color: #878484;
   transition: all 0.3s;
 }
@@ -557,7 +557,7 @@ footer {
 #sidebar ul li.active > a,
 a[aria-expanded='true'] {
   color: #6d6a6a;
-  background: #01340c;
+  background: #FABB58;
 }
 a[data-toggle='collapse'] {
   position: relative;
