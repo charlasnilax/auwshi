@@ -44,7 +44,7 @@ nav {
 }
 
 #search_btn {
-  background-color: #225f1c;
+  background-color: #6db666;
   
 }
 
@@ -61,7 +61,7 @@ nav {
 
 #login_btn,
 #view_btn {
-  background-color: #225f1c;
+  background-color: #71e766;
   padding: 0.4rem 1.8rem;
   font-family: calibri;
 }
@@ -73,7 +73,7 @@ nav {
 }
 
 #cart_count {
-  background-color:#225f1c;
+  background-color:#7ce272;
   padding: 0.5rem 0.7rem;
   border-radius: 0.2rem;
   color: black;
