@@ -25,7 +25,7 @@
           
           
             <div className="navbar-brand">
-              <Link to="/product">
+              <Link to="/">
                 <img width="100px" alt='Auwshi Logo' src="/images/logo.png" />
               </Link>
               

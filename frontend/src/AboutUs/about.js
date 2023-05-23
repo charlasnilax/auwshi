@@ -69,14 +69,14 @@ function Foody(){
             ipsum sit. Aliqu diam amet diam et eos.
           </p>
         </div>
-        <div className="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
+        {/* <div className="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
           <a
             className="btn btn-lg btn-secondary rounded-pill py-3 px-5"
             href=""
           >
             Visit Now
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>}
