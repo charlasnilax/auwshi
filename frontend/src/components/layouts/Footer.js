@@ -3,18 +3,17 @@ export  default function Footer (){
         <>
   {/* Footer Start */}
   <div
-    className="container-fluid bg-success footer mt-5 pt-5 wow fadeIn"
+    className=" bg-success footer mt-5 pt-5 wow fadeIn"
     data-wow-delay="0.1s"
   >
     <div className="container py-5">
       <div className="row g-5">
         <div className="col-lg-3 col-md-6">
           <h1 className="fw-bold text-primary mb-4">
-            F<span className="text-secondary">oo</span>dy
+            A<span className="text-secondary">uw</span>shi
           </h1>
           <p>
-            Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
-            ipsum et lorem et sit, sed stet lorem sit clita
+          Auwshi, a leading herbal business, blends nature's wisdom with modern innovation. We craft premium herbal products that inspire well-being and vitality. Experience the transformative power of Auwshi and embrace a natural approach to health.
           </p>
           <div className="d-flex pt-2">
             <a
@@ -47,11 +46,11 @@ export  default function Footer (){
           <h4 className="text-light mb-4">Address</h4>
           <p>
             <i className="fa fa-map-marker-alt me-3" />
-            123 Street, New York, USA
+          Chankanai, Vikneshwara road,No:09
           </p>
           <p>
             <i className="fa fa-phone-alt me-3" />
-            +012 345 67890
+            +94 706443471
           </p>
           <p>
             <i className="fa fa-envelope me-3" />
@@ -76,7 +75,7 @@ export  default function Footer (){
             Support
           </a> */}
         </div>
-        <div className="col-lg-3 col-md-6">
+        {/* <div className="col-lg-3 col-md-6">
           <h4 className="text-light mb-4">Newsletter</h4>
           <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
           <div className="position-relative mx-auto" style={{ maxWidth: 400 }}>
@@ -85,14 +84,9 @@ export  default function Footer (){
               type="text"
               placeholder="Your email"
             />
-            <button
-              type="button"
-              className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-            >
-              SignUp
-            </button>
+           
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="container-fluid copyright">
@@ -101,15 +95,7 @@ export  default function Footer (){
           <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
             © <a href="#">Auwshi Herbs</a>, All Right Reserved.
           </div>
-          <div className="col-md-6 text-center text-md-end">
-            {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
-            Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-            <br />
-            Distributed By:{" "}
-            <a href="https://themewagon.com" target="_blank">
-              ThemeWagon
-            </a>
-          </div>
+         
         </div>
       </div>
     </div>

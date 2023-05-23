@@ -123,45 +123,11 @@ return (
           >
             <h1 className="display-5 mb-3">Our Products</h1>
             <p>
-              Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam
-              justo sed rebum vero dolor duo.
+Some of Auwshi's Products            
             </p>
           </div>
         </div>
-        <div
-          className="col-lg-6 text-start text-lg-end wow slideInRight"
-          data-wow-delay="0.1s"
-        >
-          <ul className="nav nav-pills d-inline-flex justify-content-end mb-5">
-            <li className="nav-item me-2">
-              <a
-                className="btn btn-outline-primary border-2 active"
-                data-bs-toggle="pill"
-                href="#tab-1"
-              >
-                Vegetable
-              </a>
-            </li>
-            <li className="nav-item me-2">
-              <a
-                className="btn btn-outline-primary border-2"
-                data-bs-toggle="pill"
-                href="#tab-2"
-              >
-                Fruits{" "}
-              </a>
-            </li>
-            <li className="nav-item me-0">
-              <a
-                className="btn btn-outline-primary border-2"
-                data-bs-toggle="pill"
-                href="#tab-3"
-              >
-                Fresh
-              </a>
-            </li>
-          </ul>
-        </div>
+        
       </div>
       <div className="tab-content">
         <div id="tab-1" className="tab-pane fade show p-0 active">
@@ -183,12 +149,12 @@ return (
                 </div>
                 <div className="text-center p-4">
                   <a className="d-block h5 mb-2" href="">
-                    Fresh Tomato
+                    Dry-Ginger
                   </a>
-                  <span className="text-primary me-1">$19.00</span>
+                  {/* <span className="text-primary me-1">$19.00</span>
                   <span className="text-body text-decoration-line-through">
                     $29.00
-                  </span>
+                  </span> */}
                 </div>
                 <div className="d-flex border-top">
                   <small className="w-50 text-center border-end py-2">
@@ -223,12 +189,12 @@ return (
                 </div>
                 <div className="text-center p-4">
                   <a className="d-block h5 mb-2" href="">
-                    Fresh Tomato
+                    Tooth Powder
                   </a>
-                  <span className="text-primary me-1">$19.00</span>
+                  {/* <span className="text-primary me-1">$19.00</span>
                   <span className="text-body text-decoration-line-through">
                     $29.00
-                  </span>
+                  </span> */}
                 </div>
                 <div className="d-flex border-top">
                   <small className="w-50 text-center border-end py-2">
@@ -263,12 +229,12 @@ return (
                 </div>
                 <div className="text-center p-4">
                   <a className="d-block h5 mb-2" href="">
-                    Fresh Tomato
+                    Hair Oil
                   </a>
-                  <span className="text-primary me-1">$19.00</span>
+                  {/* <span className="text-primary me-1">$19.00</span>
                   <span className="text-body text-decoration-line-through">
                     $29.00
-                  </span>
+                  </span> */}
                 </div>
                 <div className="d-flex border-top">
                   <small className="w-50 text-center border-end py-2">
@@ -303,12 +269,12 @@ return (
                 </div>
                 <div className="text-center p-4">
                   <a className="d-block h5 mb-2" href="">
-                    Fresh Tomato
+                    Sikaikai Powder
                   </a>
-                  <span className="text-primary me-1">$19.00</span>
+                  {/* <span className="text-primary me-1">$19.00</span>
                   <span className="text-body text-decoration-line-through">
                     $29.00
-                  </span>
+                  </span> */}
                 </div>
                 <div className="d-flex border-top">
                   <small className="w-50 text-center border-end py-2">

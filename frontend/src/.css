@@ -1,5 +1,5 @@
 html,
-/* body {
+body {
   font-family: "Open Sans", sans-serif;
   width: 100%;
   height: 100%;
@@ -8,7 +8,7 @@ html,
   overflow-x: hidden;
   background-color:  #0c0b09;
   color: #fff;
-} */
+}
 a {
   color: #cda45e;
   text-decoration: none;
@@ -22,24 +22,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Scroll Bar */
 
-/* ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background-color: #0e0e0e;
-} */
+}
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px;
   background-color: #0a0a0a;
-} */
+}
 
-/* ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: rgba(55, 54, 54, 0.2);
   border: 0px;
   background-clip: padding-box;
   border-radius: 5px;
-} */
+}
 
 nav {
-  background-color: rgb(217, 196, 196);
+  background-color: rgb(20, 20, 20);
   padding: 1rem 1rem;
 }
 
@@ -59,12 +59,7 @@ nav {
 
 }
 
-#login_btn,
-#view_btn {
-  background-color: #71e766;
-  padding: 0.4rem 1.8rem;
-  font-family: calibri;
-}
+
 
 #cart {
   font-size: 1rem;
@@ -134,7 +129,6 @@ footer {
   color: grey;
   bottom: 0;
   width: 100%;
-  
 }
 
 /* Ratings */
