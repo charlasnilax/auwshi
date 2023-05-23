@@ -61,7 +61,7 @@ const About = () => {
             <p className="mb-4">
             Herbal products and medicines, derived from plants and herbs, are gaining popularity for their natural healing properties. Echinacea, turmeric, ginger, garlic, peppermint, St. John's Wort, chamomile, valerian root, ginseng, and milk thistle are commonly recognized herbal remedies. However, it's important to consult with a healthcare professional before using them, as they can still have side effects and interactions with medications.
             </p>
-            <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
+            {/* <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a> */}
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@ return (
                 <div className="position-relative bg-light overflow-hidden">
                   <img
                     className="img-fluid w-100"
-                    src="img/imagev4.jpeg"
+                    src="images/products/imageV1.jpg"
                     alt=""
                   />
                   <div className="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -214,7 +214,7 @@ return (
                 <div className="position-relative bg-light overflow-hidden">
                   <img
                     className="img-fluid w-100"
-                    src="img/product-6.jpg"
+                    src="images/products/imageV1.jpg"
                     alt=""
                   />
                   <div className="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -254,7 +254,7 @@ return (
                 <div className="position-relative bg-light overflow-hidden">
                   <img
                     className="img-fluid w-100"
-                    src="img/product-7.jpg"
+                    src="images/products/imageV1.jpg"
                     alt=""
                   />
                   <div className="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
@@ -294,7 +294,7 @@ return (
                 <div className="position-relative bg-light overflow-hidden">
                   <img
                     className="img-fluid w-100"
-                    src="img/product-8.jpg"
+                    src="images/products/imageV1.jpg"
                     alt=""
                   />
                   <div className="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
