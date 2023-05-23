@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './bootstrap.min.css';
+import './style.css';
 // import './Carousel.css';
 //jathu courousel starts
 const CarouselComponent = () => {

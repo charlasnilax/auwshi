@@ -3,15 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import React from 'react';
-// import './lib/animate/animate.min.css';
-// import './lib/owlcarousel/assets/owl.carousel.min.css';
+import './bootstrap.min.css';
+import './style.css';
 
-// import Css from 'src/css/style.css';
-{/* <link rel="stylesheet" type="text/css" href="style.css" /> */}
 
-// import Foody from './';
 
-// Rest of the code
 
 function Foody(){
   return (

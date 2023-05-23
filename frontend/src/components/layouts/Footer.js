@@ -3,7 +3,7 @@ export  default function Footer (){
         <>
   {/* Footer Start */}
   <div
-    className="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+    className="container-fluid bg-success footer mt-5 pt-5 wow fadeIn"
     data-wow-delay="0.1s"
   >
     <div className="container py-5">
@@ -55,7 +55,7 @@ export  default function Footer (){
           </p>
           <p>
             <i className="fa fa-envelope me-3" />
-            info@example.com
+            auwshiherbs@gmai
           </p>
         </div>
         <div className="col-lg-3 col-md-6">
@@ -63,18 +63,18 @@ export  default function Footer (){
           <a className="btn btn-link" href="">
             About Us
           </a>
-          <a className="btn btn-link" href="">
+          {/* <a className="btn btn-link" href="">
             Contact Us
-          </a>
+          </a> */}
           <a className="btn btn-link" href="">
             Our Services
           </a>
-          <a className="btn btn-link" href="">
+          {/* <a className="btn btn-link" href="">
             Terms &amp; Condition
           </a>
           <a className="btn btn-link" href="">
             Support
-          </a>
+          </a> */}
         </div>
         <div className="col-lg-3 col-md-6">
           <h4 className="text-light mb-4">Newsletter</h4>
@@ -99,7 +99,7 @@ export  default function Footer (){
       <div className="container">
         <div className="row">
           <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            © <a href="#">Your Site Name</a>, All Right Reserved.
+            © <a href="#">Auwshi Herbs</a>, All Right Reserved.
           </div>
           <div className="col-md-6 text-center text-md-end">
             {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
