@@ -5,6 +5,9 @@ import Col from 'react-bootstrap/Col';
 import React from 'react';
 import './bootstrap.min.css';
 import './style.css';
+import './animate.css';
+import './animate.min.css';
+
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -71,7 +74,7 @@ function Foody(){
       {/* About End */}
 
       {/* Firm Visit Start */}
-      { <div className="container-fluid bg-primary bg-icon mt-5 py-6">
+      {/* { <div className="container-fluid bg-primary bg-icon mt-5 py-6">
     <div className="container">
       <div className="row g-5 align-items-center">
         <div className="col-md-7 wow fadeIn" data-wow-delay="0.1s">
@@ -82,7 +85,7 @@ function Foody(){
             lorem sit clita duo justo magna dolore erat amet. Diam dolor diam
             ipsum sit. Aliqu diam amet diam et eos.
           </p>
-        </div>
+        </div> */}
         {/* <div className="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
           <a
             className="btn btn-lg btn-secondary rounded-pill py-3 px-5"
@@ -91,9 +94,9 @@ function Foody(){
             Visit Now
           </a>
         </div> */}
-      </div>
+      {/* </div>
     </div>
-  </div>}
+  </div>} */}
       {/* Firm Visit End */}
 
       {/* Feature Start */}
@@ -176,22 +179,22 @@ function Foody(){
         </p>
       </div>
       <div className="row g-5 justify-content-center">
-        <div className="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-          <div className="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5">
+        <div className="col-lg-5 col-md-12 wow fadeInUp " data-wow-delay="0.1s">
+          <div className="callus text-white d-flex flex-column justify-content-center h-100 p-5">
             <h5 className="text-white">Call Us</h5>
             <p className="mb-5">
               <i className="fa fa-phone-alt me-3" />
-              +012 345 67890
+              +947 7644 3471
             </p>
             <h5 className="text-white">Email Us</h5>
             <p className="mb-5">
               <i className="fa fa-envelope me-3" />
-              info@example.com
+              auwshiherbs@gmail.com
             </p>
             <h5 className="text-white">Office Address</h5>
             <p className="mb-5">
               <i className="fa fa-map-marker-alt me-3" />
-              123 Street, New York, USA
+             Vikneshwara road,  Chankanai , Jaffna 
             </p>
             <h5 className="text-white">Follow Us</h5>
             <div className="d-flex pt-2">
@@ -223,12 +226,11 @@ function Foody(){
           </div>
         </div>
         <div className="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-          <p className="mb-4">
+          {/* <p className="mb-4">
             The contact form is currently inactive. Get a functional and working
             contact form with Ajax &amp; PHP in a few minutes. Just copy and
             paste the files, add a little code and you're done.{" "}
-            <a href="https://htmlcodex.com/contact-form">Download Now</a>.
-          </p>
+?          </p> */}
           <form>
             <div className="row g-3">
               <div className="col-md-6">
@@ -278,7 +280,7 @@ function Foody(){
               </div>
               <div className="col-12">
                 <button
-                  className="btn btn-primary rounded-pill py-3 px-5"
+                  className="btn btn-warning rounded-pill py-3 px-5 submit-btn"
                   type="submit"
                 >
                   Send Message

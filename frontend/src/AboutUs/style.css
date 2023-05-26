@@ -1,6 +1,22 @@
 
-nav{
+.submit-btn{
+    background-color: #FABB58;
+}
+.callus{
     background: #4A8082;
+}
+.auwshi{
+    color: #F7F8FC;
+  
+}
+.address{
+    color: #F7F8FC;
+}
+.footer{
+    background-color: #4A8082;
+}
+nav{
+    background: #0b1413;
 padding-bottom: 10px;
 }
 :root {
@@ -109,14 +125,14 @@ padding-bottom: 10px;
 
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: #555555;
+    color: #f58709;
     font-weight: 500;
     outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--dark);
+    color: var(--light);
 }
 
 @media (max-width: 991.98px) {

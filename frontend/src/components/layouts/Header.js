@@ -24,24 +24,29 @@
           <Container>
           
           
-            <div className="navbar-brand">
+            <div className="navbar navbar-brand">
               <Link to="/">
                 <img width="100px" alt='Auwshi Logo' src="/images/logo.png" />
               </Link>
               
             </div>
-            <Search />
             <Nav className="me-auto">
               {/* <Nav.Link href="/">Home</Nav.Link> */}
-              <Nav.Link href="/aboutus">About Us</Nav.Link>
+              <Nav.Link className="navbox" href="/aboutus">About Us</Nav.Link>
               <Nav.Link href="/product">Products</Nav.Link>
               <Nav.Link href="#blogs">Blog</Nav.Link>
+              
             </Nav>
+            <nav>
+            <Search />
+            </nav>
+            
+          
             <div>
               {isAuthenticated ?
                 (
                   <Dropdown className='d-inline'>
-                    <Dropdown.Toggle variant='default text-white pr-5' id='dropdown-basic'>
+                    <Dropdown.Toggle variant='default  pr-5' id='dropdown-basic' cl>
                       <figure className='avatar avatar-nav'>
                         <Image width="50px" src={user.avatar ?? './images/default_avatar.png'} />
                       </figure>

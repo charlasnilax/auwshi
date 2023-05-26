@@ -1,9 +1,10 @@
+
 export  default function Footer (){
     return (
         <>
   {/* Footer Start */}
   <div
-    className=" bg-success footer mt-5 pt-5 wow fadeIn"
+    className=" footer mt-5 pt-5 wow fadeIn"
     data-wow-delay="0.1s"
   >
     <div className="container py-5">
@@ -12,7 +13,7 @@ export  default function Footer (){
           <h1 className="fw-bold text-primary mb-4">
             A<span className="text-secondary">uw</span>shi
           </h1>
-          <p>
+          <p className="auwshi">
           Auwshi, a leading herbal business, blends nature's wisdom with modern innovation. We craft premium herbal products that inspire well-being and vitality. Experience the transformative power of Auwshi and embrace a natural approach to health.
           </p>
           <div className="d-flex pt-2">
@@ -42,10 +43,10 @@ export  default function Footer (){
             </a>
           </div>
         </div>
-        <div className="col-lg-3 col-md-6">
-          <h4 className="text-light mb-4">Address</h4>
+        <div className="col-lg-3 col-md-6 address">
+          <h4 className="text-dark mb-4 ">Address</h4>
           <p>
-            <i className="fa fa-map-marker-alt me-3" />
+            <i className=" fa fa-map-marker-alt me-3" />
           Chankanai, Vikneshwara road,No:09
           </p>
           <p>
@@ -58,8 +59,8 @@ export  default function Footer (){
           </p>
         </div>
         <div className="col-lg-3 col-md-6">
-          <h4 className="text-light mb-4">Quick Links</h4>
-          <a className="btn btn-link" href="">
+          <h4 className="text-dark mb-4">Quick Links</h4>
+          <a className="btn btn-link" href="/aboutus">
             About Us
           </a>
           {/* <a className="btn btn-link" href="">

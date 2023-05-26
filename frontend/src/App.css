@@ -6,11 +6,27 @@ html,
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background-color:  #14380e;
-  color: #fff;
+  background-color:  #65d551;
+  color: #dd2a2a;
 } */
 
+/* .navbox{
+  background-color: #09ed10;
+  margin-top: -10px;
+} */
+.dash{
+  background-color: #f58709
 
+
+
+
+
+
+  ;
+}
+.products{
+  color: #4A8082;
+}
 .root {
   --primary: #3CB815;
   --secondary: #F65005;
@@ -47,12 +63,15 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 nav {
-  background-color: #4A8082;
+  background-color: 0b1413;
   padding: 1rem 1rem;
 }
 
 #search_btn {
-  background-color: #6db666;
+  background-color: #f58709
+  ;
+  border-radius: 4px;
+
   
 }
 
@@ -69,19 +88,20 @@ nav {
 
 #login_btn,
 #view_btn {
-  background-color: #71e766;
+  background-color: #FABB58;
   padding: 0.4rem 1.8rem;
   font-family: calibri;
+  border-radius: 10px;
 }
 
 #cart {
   font-size: 1rem;
-  color: rgb(15, 15, 15);
+  color: #f58709;
   -ms-flex-align: end;
 }
 
 #cart_count {
-  background-color:#7ce272;
+  background-color:#f58709;
   padding: 0.5rem 0.7rem;
   border-radius: 0.2rem;
   color: black;
@@ -103,7 +123,7 @@ nav {
 }
 
 .card-title a:hover {
-  color: #024b0e;
+  color: #FABB58;
   text-decoration: none;
 }
 
@@ -116,7 +136,7 @@ nav {
 }
 
 #view_btn {
-  background-color: #074901;
+  background-color: #FABB58;
   color: rgb(11, 10, 10);
 }
 
@@ -127,7 +147,7 @@ nav {
 
 .ratings {
   font-size: 1.2rem;
-  color: #014e09;
+  color: #FABB58;
 }
 
 #no_of_reviews {
@@ -151,7 +171,7 @@ footer {
   display: inline-block;
   position: relative;
   font-family: FontAwesome;
-  color: #085601;
+  color: #4A8082;
 }
 
 .rating-outer::before {
@@ -169,7 +189,7 @@ footer {
 
 .rating-inner::before {
   content: '\f005 \f005 \f005 \f005 \f005';
-  color: #017803;
+  color: #4A8082;
 }
 
 /* Product Details Page */
@@ -186,7 +206,7 @@ footer {
 #cart_btn,
 #review_btn {
   border-radius: 2rem;
-  background-color: #003905;
+  background-color: #FABB58;
   border: none;
   padding: 0.5rem 2rem;
 }
@@ -271,15 +291,15 @@ footer {
 
 #checkout_btn,
 .review-btn {
-  background-color: #014a03;
-  border-color: #025006;
+  background-color: #FABB58;
+  border-color: #FABB58;
   margin-top: 2rem;
   border-radius: 5rem;
 }
 
 #view_order_details {
-  background-color: #013307;
-  border-color: #01420b;
+  background-color: #4A8082;
+  border-color: #4A8082;
 }
 
 #order_summary {
@@ -331,8 +351,8 @@ footer {
 }
 
 .wrapper form .btn {
-  background-color: #015a01;
-  border-color: #01540b;
+  background-color: #FABB58;
+  border-color: #4A8082;
   color: rgb(13, 12, 12);
   margin-top: 2.5rem;
 }
@@ -411,7 +431,7 @@ footer {
 }
 
 .active-step {
-  background: #093601;
+  background: #FABB58;
   color: #060606;
 }
 
@@ -419,7 +439,7 @@ footer {
   float: left;
   width: 0;
   border-top: 20px solid transparent;
-  border-left: 15px solid #013408;
+  border-left: 15px solid #FABB58;
   border-bottom: 20px solid transparent;
   margin-left: -1px;
 }
@@ -427,9 +447,9 @@ footer {
 .triangle2-active {
   width: 0;
   float: left;
-  border-top: 20px solid #014c0c;
+  border-top: 20px solid #4A8082;
   border-left: 15px solid #fff;
-  border-bottom: 20px solid #034301;
+  border-bottom: 20px solid #4A8082;
   margin-right: -1px;
 }
 
@@ -452,6 +472,10 @@ footer {
 }
 
 /* User Profile */
+#dropdown-basic{
+  color: #f58709
+  ;
+}
 
 .avatar-profile {
   height: 16rem;
@@ -483,8 +507,8 @@ footer {
 }
 
 .update-btn {
-  background-color: #053d01;
-  border-color: #00370a;
+  background-color: #FABB58;
+  border-color: #FABB58;
   color: white;
 }
 
@@ -494,16 +518,16 @@ footer {
 
 /* Pagination */
 .page-item.active .page-link {
-  background-color: #01360a;
-  border-color: #01350e;
+  background-color: #4A8082;
+  border-color: #4A8082;
 }
 
 .page-link {
-  color: #003403;
+  color: #FABB58;
 }
 
 .page-link:hover {
-  color: #052c00;
+  color: #FABB58;
 }
 
 /* Admin Sidebar */
@@ -634,20 +658,20 @@ ul.CTAs a {
 }
 
 .orange {
-  color:rgb(5, 93, 2);
+  color:#4A8082;
 }
 
 .yellow {
-  color: rgb(6, 132, 2);
+  color: #4A8082;
 }
 
 .review_user {
   font-size: 0.8rem;
   color: rgb(18, 17, 17);
 }
-#Navbar{
+.navbar{
   
-  background-color: #0F2B05;
+  background-color: #0b1413;
   margin-bottom: 2px;
   padding: 0.5rem 0.5rem;
 }

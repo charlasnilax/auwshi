@@ -6,14 +6,31 @@ import Row from 'react-bootstrap/Row';
 import React from 'react';
 import './bootstrap.min.css';
 import './style.css';
+import './animate.css';
+import './animate.min.css';
+// page loader starts
+const Loader = () => {
+  return (
+    <div className="loader-container">
+      <div className="loader"></div>
+      <p>Loading...</p>
+    </div>
+  );
+};
+
+
+//page loader ends
+
+
 // import './Carousel.css';
 //jathu courousel starts
 const CarouselComponent = () => {
   return (
-    <div className="container-fluid p-2 mb-5 wow fadeIn" data-wow-delay="0.1s" >
-      <Carousel id="header-carousel">
+    
+    <div className="container-fluid p-2 mb-5 wow fadeIn firstcaro" data-wow-delay="0.1s" >
+      <Carousel id="header-carousel firstcaro" style = {{}}>
         <Carousel.Item>
-          <img className="w-100" src="images/products/imagev3.jpg" alt="Image" />
+          <img className="w-100 firstcaro" src="images/products/imagev3.jpg" alt="Image" />
           <Carousel.Caption>
             <div className="container">
               <div className="row justify-content-start">
