@@ -1,14 +1,21 @@
-/* .App{
-    background-color:#4A8082;
-} */
+.App{
+    background-color:#f7f3e6
+
+    ;
+}
+.ourfeature{
+    background-color: #d5bd9d;
+}
 /* Add these styles to your CSS file */
 
-.loader-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.carousel-wrapper {
+    margin-left: -230px; /* Adjust as needed depending on your layout */
+    margin-right: -230px; /* Adjust as needed depending on your layout */
+    padding-left: 50px; /* Adjust as needed depending on your layout */
+    padding-right: 50px; /* Adjust as needed depending on your layout */
   }
+  
+  
   
   .loader {
     border: 8px solid #f3f3f3; /* Light gray */
@@ -25,10 +32,9 @@
   }
   
 
-.firstcaro{
-    height: 100%;
+/* .firstcaro{
     width: 1000px;
-}
+} */
 
 :root {
     --primary: #3CB815;
@@ -56,7 +62,6 @@
 }
 
 /* .bg-icon {
-    background: url(../img/bg-icon.png) center center repeat;
     background-size: contain;
 } */
 
@@ -208,7 +213,7 @@
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
-        min-height: 400px;
+        min-height: 00px;
     }
     
     #header-carousel .carousel-item img {
@@ -271,6 +276,9 @@
 .about-img img {
     position: relative;
     z-index: 2;
+}
+.same{
+    background-color: #d5bd9d;
 }
 
 .about-img::before {
@@ -395,7 +403,7 @@
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--light);
+    color:black;
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -407,7 +415,7 @@
 }
 
 .footer .copyright a {
-    color: var(--light);
+    color:black;
 }
 
 .footer .copyright a:hover {

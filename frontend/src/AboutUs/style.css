@@ -13,7 +13,14 @@
     color: #F7F8FC;
 }
 .footer{
-    background-color: #4A8082;
+    background: linear-gradient(to right,#f87004
+    , #fa9f18
+    ,  #f58709
+
+
+
+
+    );
 }
 nav{
     background: #0b1413;
