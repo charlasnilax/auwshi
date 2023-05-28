@@ -342,12 +342,15 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-
+border-radius: 10px;
   font-weight: 700;
+  /* background-color: #a35672; */
 }
 
 .wrapper form {
   padding: 2.5rem 3rem;
+  border-radius: 10px;
+  background-color: #c78aa5;
 }
 
 .wrapper form .btn {
@@ -355,6 +358,7 @@ footer {
   border-color: #4A8082;
   color: rgb(13, 12, 12);
   margin-top: 2.5rem;
+  border-radius: 10px;
 }
 
 .wrapper form a {

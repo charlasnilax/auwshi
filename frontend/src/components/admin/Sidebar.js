@@ -13,14 +13,14 @@ export default function Sidebar () {
                     <Link to="/admin/dashboard"><i className="fas fa-tachometer-alt"></i> Dashboard</Link>
                 </li>
         
-                <li>
-                    <NavDropdown title={
-                        <i className='fa fa-product-hunt'> Product</i>
-                    }>
-                        <NavDropdown.Item  onClick={() => navigate('/admin/products')} > <i className='fa fa-shopping-basket'> All</i></NavDropdown.Item>
-                        <NavDropdown.Item  onClick={() => navigate('/admin/products/create')} > <i className='fa fa-plus'> Create </i></NavDropdown.Item>
-                    </NavDropdown>
-                </li>
+                    <li>
+                        <NavDropdown title={
+                            <i className='fa fa-product-hunt'> Product</i>
+                        }>
+                            <NavDropdown.Item  onClick={() => navigate('/admin/products')} > <i className='fa fa-shopping-basket'> All</i></NavDropdown.Item>
+                            <NavDropdown.Item  onClick={() => navigate('/admin/products/create')} > <i className='fa fa-plus'> Create </i></NavDropdown.Item>
+                        </NavDropdown>
+                    </li>
 
                 <li>
                     <Link to="/admin/orders"><i className="fa fa-shopping-basket"></i> Orders</Link>
