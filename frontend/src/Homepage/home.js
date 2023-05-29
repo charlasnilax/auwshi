@@ -26,7 +26,7 @@ const Loader = () => {
 //jathu courousel starts
 const CarouselComponent = () => {
   return (
-    
+    <div className='homecaro'>
     <div className="container-fluid p-2 mb-5 wow fadeIn carousel-wrapper" data-wow-delay="0.1s" >
       <Carousel id="header-carousel" style = {{}}>
         <Carousel.Item>
@@ -36,8 +36,8 @@ const CarouselComponent = () => {
               <div className="row justify-content-start">
                 <div className="col-lg-7">
                   {/* <h1 className="display-2 mb-5 animated slideInDown">Organic Food Is Good For Health</h1> */}
-                  {/* <a href="" className="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a> */}
-                  {/* <a href="" className="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> */}
+                  {/* <a href="/product" className="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a> */}
+                  <a href="/product" className="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Products</a>
                 </div>
               </div>
             </div>
@@ -50,14 +50,15 @@ const CarouselComponent = () => {
               <div className="row justify-content-start">
                 <div className="col-lg-7">
                   {/* <h1 className="display-2 mb-5 animated slideInDown">Natural Food Is Always Healthy</h1> */}
-                  {/* <a href="" className="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a>
-                  <a href="" className="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Services</a> */}
+                  {/* <a href="" className="btn btn-primary rounded-pill py-sm-3 px-sm-5">Products</a> */}
+                  <a href="/product" className="btn btn-secondary rounded-pill py-sm-3 px-sm-5 ms-3">Products</a>
                 </div>
               </div>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+    </div>
     </div>
   );
 };

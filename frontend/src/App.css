@@ -244,7 +244,7 @@ footer {
   height: 80px;
   padding-left: 0;
 }
-.loader:after {
+/* .loader:after {
   content: ' ';
   display: block;
   width: 64px;
@@ -254,7 +254,7 @@ footer {
   border: 6px solid #014202;
   border-color: #0b4501 transparent;
   animation: lds-dual-ring 1.2s linear infinite;
-}
+} */
 @keyframes lds-dual-ring {
   0% {
     transform: rotate(0deg);

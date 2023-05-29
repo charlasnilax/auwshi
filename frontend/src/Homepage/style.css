@@ -3,6 +3,15 @@
 
     ;
 }
+/* .homecaro{
+    margin-left: -940px;
+
+    margin-bottom: -0px;
+    margin-right: -940px;
+    
+
+    
+} */
 .ourfeature{
     background-color: #d5bd9d;
 }
@@ -92,6 +101,9 @@
 .btn.btn-outline-primary:hover,
 .btn.btn-outline-secondary:hover {
     color: #FFFFFF;
+    margin-top: 400px;
+    /* margin-right: -500px; */
+    margin-left:200px;
 }
 
 .btn-square {
