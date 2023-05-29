@@ -27,7 +27,7 @@ const Loader = () => {
 const CarouselComponent = () => {
   return (
     <div className='homecaro'>
-    <div className="container-fluid p-2 mb-5 wow fadeIn carousel-wrapper" data-wow-delay="0.1s" >
+    <div className="container-fluid p-2 mb-5 wow fadeIn carousel-wrapper " data-wow-delay="0.1s" >
       <Carousel id="header-carousel" style = {{}}>
         <Carousel.Item>
           <img className="w-100" src="images/products/imagev3.jpg" alt="Image" />
