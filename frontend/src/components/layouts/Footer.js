@@ -24,25 +24,25 @@ export  default function Footer (){
           <div className="d-flex pt-2">
             <a
               className="btn btn-square btn-outline-light rounded-circle me-1"
-              href="https://www.twitter.com/auwshiherbs"
+              href="https://www.instagram.com/auwshiherbs" target="_blank"
             >
-              <i className="fab fa-twitter" />
-            </a>
+              <i class="fab fa-instagram"></i>              
+</a>
             <a
               className="btn btn-square btn-outline-light rounded-circle me-1"
-              href="https://www.facebook.com/auwshiherbs"
+              href="https://www.facebook.com/profile.php?id=100091527062973" target="_blank"
             >
               <i className="fab fa-facebook-f" />
             </a>
             <a
               className="btn btn-square btn-outline-light rounded-circle me-1"
-              href="https://www.youtube.com/auwshiherbs"
+              href="https://www.youtube.com/auwshiherbs" target="_blank"
             >
               <i className="fab fa-youtube" />
             </a>
             <a
               className="btn btn-square btn-outline-light rounded-circle me-0"
-              href="https://www.linkedin.com/auwshiherbs"
+              href="https://www.linkedin.com/auwshiherbs" target="_blank"
             >
               <i className="fab fa-linkedin-in" />
             </a>
